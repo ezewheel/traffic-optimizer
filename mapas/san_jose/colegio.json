@@ -1,0 +1,8 @@
+{
+  "nombre": "Colegio Salesiano San José",
+  "alumnos": 2000,
+  "puertas": [
+    {"calle": "Salta", "entre": ["Presidente Roca", "España"], "porcentaje": 60},
+    {"calle": "Presidente Roca", "entre": ["Salta", "Jujuy"], "porcentaje": 40}
+  ]
+}
