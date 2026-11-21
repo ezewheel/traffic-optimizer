@@ -1,0 +1,42 @@
+{
+  "mapa": "san_jose",
+
+  "carpeta_escenarios": "escenarios",
+  "carpeta_reportes": "reporte_corridas",
+
+  "colegio": {
+    "como_llegan": {
+      "auto": 40,
+      "colectivo": 55,
+      "moto": 1,
+      "bici": 1,
+      "caminando": 3
+    },
+    "chicos_por_auto": 1.3,
+    "chicos_por_colectivo": 30,
+    "ventana_llegada_min": 40,
+    "parada_media_s": 90,
+    "doble_fila_pct": 45,
+    "radio_descenso_m": 150
+  },
+
+  "trafico_fondo": { "autos": 150 },
+
+  "simulacion": {
+    "duracion_min": 75,
+    "semilla": 42,
+    "abrir_simuladores": false
+  },
+
+  "algoritmo_genetico": {
+    "poblacion": 20,
+    "generaciones": 15,
+    "elite": 2,
+    "torneo": 3,
+    "prob_cruce": 0.85,
+    "prob_mutacion": 0.1,
+    "verde_min": 10,
+    "verde_max": 60,
+    "paciencia": 5
+  }
+}
